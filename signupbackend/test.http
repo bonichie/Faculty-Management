@@ -1,0 +1,11 @@
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+    "employeeNumber":"02536",
+    "firstName":"Vince",
+    "lastName":"Vince",
+    "username":"beans",
+    "email":"beans@yahoo.com",
+    "password":"beans"
+}

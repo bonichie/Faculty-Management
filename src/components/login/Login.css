@@ -1,0 +1,145 @@
+#Login_container{
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    max-height: 650px;
+    max-width: 1000px;
+    height: 100%;
+    width: 310px;
+    box-shadow: 0 0 2px rgba(15, 15, 15, 0.38);
+    border-radius: 16px;
+    background-color: #edebeb;
+}
+.login-logo{
+    display: flex;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    flex-direction: column;
+    background: #7655e3;
+    max-width: 900px;
+    height: 320px;
+    width: 100%;
+    justify-content: center;
+}
+.login-logo>h1,p{
+    background-color: transparent;
+    top: 0;
+    margin-left: 25px;
+}
+.login-logo>p{
+    margin-top: -25px ;
+    font-size: 14px;
+}
+#registration-details{
+   display: none;
+}
+
+#login-details{
+    max-height: 350px;
+    max-width: 1000px;
+    height: 30%;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #edebeb;
+}
+.mystyle{
+    display: none;
+    background-color: violet;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    background-color: #edebeb;
+    margin-top: 35px;
+}
+input:active{
+    outline: none;
+}
+form>input{
+    background-color: #edebeb;
+    border: none;
+    box-shadow: 0 0 2px rgba(15, 15, 15, 0.38);
+    margin-top: 18px;
+    padding: 10px;
+    color: black;
+    max-width: 240px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+}
+form>input:hover{
+    width: 256px;
+    transition: 500ms;
+}
+form>a{
+    background-color: transparent;
+    color: black;
+    margin-top: 32px;
+    text-decoration: none;
+    font-size: 11px;
+}
+form>#login-btn{
+    border: none;
+    margin-top: 10px;
+    width: 150px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: #7655e3;
+}
+form>#login-btn:hover{
+    cursor: pointer;
+    background-color: #573fa5;
+    width: 145px;
+    padding: 5px;
+    transition: 250ms;
+}
+form>p{
+    background-color: transparent;
+    color: black;
+    margin-top: 15px;
+    margin-right: 26px;
+    text-decoration: none;
+    font-size: 10px;
+}
+form>p>#goto-register{
+    background-color: transparent;
+    font-weight: bold;
+    color: #7655e3;
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+form>#register-btn{
+    border: none;
+    margin-top: 25px;
+    width: 150px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: #7655e3;
+}
+form>#register-btn:hover{
+    cursor: pointer;
+    background-color: #573fa5;
+    width: 145px;
+    padding: 5px;
+    transition: 250ms;
+}
+form>p>#goto-login{
+    background-color: transparent;
+    font-weight: bold;
+    color: #7655e3;
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+
+a:hover{
+    font-size: 12px;
+    transition: 400ms;
+}
+
+
