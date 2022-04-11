@@ -76,7 +76,7 @@ class login extends Component {
       password: '',
     })
 
-    alert('Signed-up Successfully')
+    alert('Signed-up Success')
   }
 
   render(){
